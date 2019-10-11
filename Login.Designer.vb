@@ -23,7 +23,6 @@ Partial Class F_login
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(F_login))
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.tb_user = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -32,22 +31,12 @@ Partial Class F_login
         Me.tb_pass = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.lbl_info = New System.Windows.Forms.Label()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Right
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(412, 0)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(286, 349)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
         '
         'Label1
         '
@@ -126,6 +115,14 @@ Partial Class F_login
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "SignUp"
         '
+        'lbl_info
+        '
+        Me.lbl_info.AutoSize = True
+        Me.lbl_info.Location = New System.Drawing.Point(14, 276)
+        Me.lbl_info.Name = "lbl_info"
+        Me.lbl_info.Size = New System.Drawing.Size(0, 21)
+        Me.lbl_info.TabIndex = 10
+        '
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
@@ -136,13 +133,16 @@ Partial Class F_login
         Me.PictureBox2.TabIndex = 9
         Me.PictureBox2.TabStop = False
         '
-        'lbl_info
+        'PictureBox1
         '
-        Me.lbl_info.AutoSize = True
-        Me.lbl_info.Location = New System.Drawing.Point(14, 276)
-        Me.lbl_info.Name = "lbl_info"
-        Me.lbl_info.Size = New System.Drawing.Size(0, 21)
-        Me.lbl_info.TabIndex = 10
+        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Right
+        Me.PictureBox1.Image = Global.Sistema_Projeto.My.Resources.Resources.pfs_login
+        Me.PictureBox1.Location = New System.Drawing.Point(342, 0)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(356, 349)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
         '
         'F_login
         '
@@ -166,8 +166,8 @@ Partial Class F_login
         Me.Name = "F_login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

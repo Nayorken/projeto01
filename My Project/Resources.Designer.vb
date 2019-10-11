@@ -63,6 +63,16 @@ Namespace My.Resources
         '''<summary>
         '''  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property a17b31f2_fb5f_4988_ad2d_41c85ee9f5d5_200x200() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("a17b31f2-fb5f-4988-ad2d-41c85ee9f5d5_200x200", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property clientes() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("clientes", resourceCulture)
@@ -76,6 +86,16 @@ Namespace My.Resources
         Friend ReadOnly Property compras() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("compras", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property eee04d88_d814_491e_8514_56e6196c6f2c_200x200() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("eee04d88-d814-491e-8514-56e6196c6f2c_200x200", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -146,6 +166,16 @@ Namespace My.Resources
         Friend ReadOnly Property Mobile_Menu_Icon() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Mobile-Menu-Icon", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property pfs_login() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("pfs_login", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

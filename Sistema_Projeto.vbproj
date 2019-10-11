@@ -84,12 +84,6 @@
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F_principal.Designer.vb">
-      <DependentUpon>F_principal.vb</DependentUpon>
-    </Compile>
-    <Compile Include="F_principal.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Login.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -131,9 +125,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="F_principal.resx">
-      <DependentUpon>F_principal.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
@@ -201,6 +192,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\empleados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pfs_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a17b31f2-fb5f-4988-ad2d-41c85ee9f5d5_200x200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eee04d88-d814-491e-8514-56e6196c6f2c_200x200.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

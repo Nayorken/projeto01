@@ -25,15 +25,16 @@ Partial Class Form1
         Me.components = New System.ComponentModel.Container()
         Me.panel_cabecalho = New System.Windows.Forms.Panel()
         Me.Panel_menu = New System.Windows.Forms.Panel()
+        Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel_conteudo = New System.Windows.Forms.Panel()
         Me.tm_ocultar_menu = New System.Windows.Forms.Timer(Me.components)
         Me.tm_mostrar_menu = New System.Windows.Forms.Timer(Me.components)
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.btn_produtos = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
@@ -48,6 +49,7 @@ Partial Class Form1
         Me.btn_fechar = New System.Windows.Forms.Button()
         Me.panel_cabecalho.SuspendLayout()
         Me.Panel_menu.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btn_menu, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -68,6 +70,7 @@ Partial Class Form1
         'Panel_menu
         '
         Me.Panel_menu.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(46, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.Panel_menu.Controls.Add(Me.PictureBox2)
         Me.Panel_menu.Controls.Add(Me.Panel6)
         Me.Panel_menu.Controls.Add(Me.btn_produtos)
         Me.Panel_menu.Controls.Add(Me.Panel5)
@@ -89,6 +92,54 @@ Partial Class Form1
         Me.Panel_menu.Size = New System.Drawing.Size(220, 501)
         Me.Panel_menu.TabIndex = 1
         '
+        'Panel6
+        '
+        Me.Panel6.BackColor = System.Drawing.Color.DarkGoldenrod
+        Me.Panel6.Location = New System.Drawing.Point(0, 202)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(5, 50)
+        Me.Panel6.TabIndex = 17
+        '
+        'Panel5
+        '
+        Me.Panel5.BackColor = System.Drawing.Color.DarkGoldenrod
+        Me.Panel5.Location = New System.Drawing.Point(0, 426)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.Size = New System.Drawing.Size(5, 50)
+        Me.Panel5.TabIndex = 15
+        '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.Color.DarkGoldenrod
+        Me.Panel4.Location = New System.Drawing.Point(0, 370)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(5, 50)
+        Me.Panel4.TabIndex = 13
+        '
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.Color.DarkGoldenrod
+        Me.Panel3.Location = New System.Drawing.Point(0, 314)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(5, 50)
+        Me.Panel3.TabIndex = 11
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.DarkGoldenrod
+        Me.Panel2.Location = New System.Drawing.Point(0, 258)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(5, 50)
+        Me.Panel2.TabIndex = 9
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.DarkGoldenrod
+        Me.Panel1.Location = New System.Drawing.Point(0, 146)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(5, 50)
+        Me.Panel1.TabIndex = 7
+        '
         'Panel_conteudo
         '
         Me.Panel_conteudo.Dock = System.Windows.Forms.DockStyle.Fill
@@ -103,53 +154,14 @@ Partial Class Form1
         'tm_mostrar_menu
         '
         '
-        'Panel1
+        'PictureBox2
         '
-        Me.Panel1.BackColor = System.Drawing.Color.DarkGoldenrod
-        Me.Panel1.Location = New System.Drawing.Point(0, 158)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(5, 50)
-        Me.Panel1.TabIndex = 7
-        '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.Color.DarkGoldenrod
-        Me.Panel2.Location = New System.Drawing.Point(0, 270)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(5, 50)
-        Me.Panel2.TabIndex = 9
-        '
-        'Panel3
-        '
-        Me.Panel3.BackColor = System.Drawing.Color.DarkGoldenrod
-        Me.Panel3.Location = New System.Drawing.Point(0, 326)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(5, 50)
-        Me.Panel3.TabIndex = 11
-        '
-        'Panel5
-        '
-        Me.Panel5.BackColor = System.Drawing.Color.DarkGoldenrod
-        Me.Panel5.Location = New System.Drawing.Point(0, 438)
-        Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(5, 50)
-        Me.Panel5.TabIndex = 15
-        '
-        'Panel6
-        '
-        Me.Panel6.BackColor = System.Drawing.Color.DarkGoldenrod
-        Me.Panel6.Location = New System.Drawing.Point(0, 214)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(5, 50)
-        Me.Panel6.TabIndex = 17
-        '
-        'Panel4
-        '
-        Me.Panel4.BackColor = System.Drawing.Color.DarkGoldenrod
-        Me.Panel4.Location = New System.Drawing.Point(0, 382)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(5, 50)
-        Me.Panel4.TabIndex = 13
+        Me.PictureBox2.Image = Global.Sistema_Projeto.My.Resources.Resources.eee04d88_d814_491e_8514_56e6196c6f2c_200x200
+        Me.PictureBox2.Location = New System.Drawing.Point(65, 68)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(100, 50)
+        Me.PictureBox2.TabIndex = 18
+        Me.PictureBox2.TabStop = False
         '
         'btn_produtos
         '
@@ -161,7 +173,7 @@ Partial Class Form1
         Me.btn_produtos.ForeColor = System.Drawing.Color.White
         Me.btn_produtos.Image = Global.Sistema_Projeto.My.Resources.Resources.producto
         Me.btn_produtos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_produtos.Location = New System.Drawing.Point(0, 214)
+        Me.btn_produtos.Location = New System.Drawing.Point(0, 202)
         Me.btn_produtos.Name = "btn_produtos"
         Me.btn_produtos.Size = New System.Drawing.Size(220, 50)
         Me.btn_produtos.TabIndex = 16
@@ -179,7 +191,7 @@ Partial Class Form1
         Me.Button5.ForeColor = System.Drawing.Color.White
         Me.Button5.Image = Global.Sistema_Projeto.My.Resources.Resources.empleados
         Me.Button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button5.Location = New System.Drawing.Point(0, 438)
+        Me.Button5.Location = New System.Drawing.Point(0, 426)
         Me.Button5.Name = "Button5"
         Me.Button5.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Button5.Size = New System.Drawing.Size(220, 50)
@@ -198,7 +210,7 @@ Partial Class Form1
         Me.Button4.ForeColor = System.Drawing.Color.White
         Me.Button4.Image = Global.Sistema_Projeto.My.Resources.Resources.compras
         Me.Button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button4.Location = New System.Drawing.Point(0, 382)
+        Me.Button4.Location = New System.Drawing.Point(0, 370)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(220, 50)
         Me.Button4.TabIndex = 12
@@ -216,7 +228,7 @@ Partial Class Form1
         Me.Button3.ForeColor = System.Drawing.Color.White
         Me.Button3.Image = Global.Sistema_Projeto.My.Resources.Resources.clientes
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button3.Location = New System.Drawing.Point(0, 326)
+        Me.Button3.Location = New System.Drawing.Point(0, 314)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(220, 50)
         Me.Button3.TabIndex = 10
@@ -234,7 +246,7 @@ Partial Class Form1
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Image = Global.Sistema_Projeto.My.Resources.Resources.venta
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button2.Location = New System.Drawing.Point(3, 270)
+        Me.Button2.Location = New System.Drawing.Point(3, 258)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(220, 50)
         Me.Button2.TabIndex = 8
@@ -252,7 +264,7 @@ Partial Class Form1
         Me.btn_dashboard.ForeColor = System.Drawing.Color.White
         Me.btn_dashboard.Image = Global.Sistema_Projeto.My.Resources.Resources.reportes
         Me.btn_dashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_dashboard.Location = New System.Drawing.Point(0, 158)
+        Me.btn_dashboard.Location = New System.Drawing.Point(0, 146)
         Me.btn_dashboard.Name = "btn_dashboard"
         Me.btn_dashboard.Size = New System.Drawing.Size(220, 50)
         Me.btn_dashboard.TabIndex = 6
@@ -262,10 +274,10 @@ Partial Class Form1
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Sistema_Projeto.My.Resources.Resources.LOGO
-        Me.PictureBox1.Location = New System.Drawing.Point(3, 54)
+        Me.PictureBox1.Image = Global.Sistema_Projeto.My.Resources.Resources.a17b31f2_fb5f_4988_ad2d_41c85ee9f5d5_200x200
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 49)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(238, 69)
+        Me.PictureBox1.Size = New System.Drawing.Size(59, 69)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 5
         Me.PictureBox1.TabStop = False
@@ -355,6 +367,7 @@ Partial Class Form1
         Me.Text = "Form1"
         Me.panel_cabecalho.ResumeLayout(False)
         Me.Panel_menu.ResumeLayout(False)
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btn_menu, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -384,4 +397,5 @@ Partial Class Form1
     Friend WithEvents Button3 As Button
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Button2 As Button
+    Friend WithEvents PictureBox2 As PictureBox
 End Class
