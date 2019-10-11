@@ -1,5 +1,5 @@
 ﻿Public Class Dashboard
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
-        Me.Close()
+    Private Sub Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

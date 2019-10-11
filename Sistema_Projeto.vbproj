@@ -205,5 +205,17 @@
   <ItemGroup>
     <None Include="Resources\6f00edc3-1f38-455c-abf5-fb59e0543a65_200x200.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VECTOR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img Dash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_3.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
