@@ -25,14 +25,15 @@ Partial Class F_login
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(F_login))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.tb_user = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.tb_pass = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.lbl_info = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -58,12 +59,12 @@ Partial Class F_login
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "KitStock"
         '
-        'TextBox1
+        'tb_user
         '
-        Me.TextBox1.Location = New System.Drawing.Point(207, 84)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(168, 27)
-        Me.TextBox1.TabIndex = 2
+        Me.tb_user.Location = New System.Drawing.Point(207, 84)
+        Me.tb_user.Name = "tb_user"
+        Me.tb_user.Size = New System.Drawing.Size(168, 27)
+        Me.tb_user.TabIndex = 2
         '
         'Button1
         '
@@ -96,13 +97,13 @@ Partial Class F_login
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "Password:"
         '
-        'TextBox2
+        'tb_pass
         '
-        Me.TextBox2.Location = New System.Drawing.Point(207, 134)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.TextBox2.Size = New System.Drawing.Size(168, 27)
-        Me.TextBox2.TabIndex = 5
+        Me.tb_pass.Location = New System.Drawing.Point(207, 134)
+        Me.tb_pass.Name = "tb_pass"
+        Me.tb_pass.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.tb_pass.Size = New System.Drawing.Size(168, 27)
+        Me.tb_pass.TabIndex = 5
         '
         'Label4
         '
@@ -135,19 +136,28 @@ Partial Class F_login
         Me.PictureBox2.TabIndex = 9
         Me.PictureBox2.TabStop = False
         '
+        'lbl_info
+        '
+        Me.lbl_info.AutoSize = True
+        Me.lbl_info.Location = New System.Drawing.Point(14, 276)
+        Me.lbl_info.Name = "lbl_info"
+        Me.lbl_info.Size = New System.Drawing.Size(0, 21)
+        Me.lbl_info.TabIndex = 10
+        '
         'F_login
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(698, 349)
+        Me.Controls.Add(Me.lbl_info)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.tb_pass)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.tb_user)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -165,12 +175,13 @@ Partial Class F_login
 
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents tb_user As TextBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents tb_pass As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents lbl_info As Label
 End Class
