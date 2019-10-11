@@ -61,11 +61,11 @@ Public Class Form1
             Me.Panel_conteudo.Controls.RemoveAt(0)
         End If
         Dim fh As Form = TryCast(Formhijo, Form)
-            fh.TopLevel = False
-            fh.FormBorderStyle = Windows.Forms.FormBorderStyle.None
-            fh.Dock = DockStyle.Fill
-            Me.Panel_conteudo.Controls.Add(fh)
-            Me.Panel_conteudo.Tag = fh
+        fh.TopLevel = False
+        fh.FormBorderStyle = Windows.Forms.FormBorderStyle.None
+        fh.Dock = DockStyle.Fill
+        Me.Panel_conteudo.Controls.Add(fh)
+        Me.Panel_conteudo.Tag = fh
         fh.Show()
     End Sub
 

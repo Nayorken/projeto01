@@ -10,7 +10,6 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Form1.Show()
         If tb_user.Text = "hugo ferreira" And tb_pass.Text = "teste123" Or tb_user.Text = "pbarca" And tb_pass.Text = "prof12" Then
-            F_principal.Show()
         Else : MsgBox("Login e/ou senha incorretos", MsgBoxStyle.Critical, "Erro")
         End If
     End Sub
