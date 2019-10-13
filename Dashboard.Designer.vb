@@ -66,7 +66,7 @@ Partial Class Dashboard
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Gray
-        Me.Label2.Location = New System.Drawing.Point(28, 69)
+        Me.Label2.Location = New System.Drawing.Point(46, 69)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(168, 18)
         Me.Label2.TabIndex = 3
@@ -77,7 +77,7 @@ Partial Class Dashboard
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Gray
-        Me.Label3.Location = New System.Drawing.Point(176, 305)
+        Me.Label3.Location = New System.Drawing.Point(194, 305)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(112, 18)
         Me.Label3.TabIndex = 6
@@ -88,7 +88,7 @@ Partial Class Dashboard
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Gray
-        Me.Label4.Location = New System.Drawing.Point(176, 395)
+        Me.Label4.Location = New System.Drawing.Point(194, 395)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(85, 18)
         Me.Label4.TabIndex = 7
@@ -99,7 +99,7 @@ Partial Class Dashboard
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Gray
-        Me.Label5.Location = New System.Drawing.Point(176, 377)
+        Me.Label5.Location = New System.Drawing.Point(194, 377)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(62, 18)
         Me.Label5.TabIndex = 8
@@ -110,7 +110,7 @@ Partial Class Dashboard
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Gray
-        Me.Label6.Location = New System.Drawing.Point(176, 359)
+        Me.Label6.Location = New System.Drawing.Point(194, 359)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(94, 18)
         Me.Label6.TabIndex = 9
@@ -121,7 +121,7 @@ Partial Class Dashboard
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Gray
-        Me.Label7.Location = New System.Drawing.Point(176, 341)
+        Me.Label7.Location = New System.Drawing.Point(194, 341)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(117, 18)
         Me.Label7.TabIndex = 10
@@ -132,7 +132,7 @@ Partial Class Dashboard
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Gray
-        Me.Label8.Location = New System.Drawing.Point(176, 323)
+        Me.Label8.Location = New System.Drawing.Point(194, 323)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(89, 18)
         Me.Label8.TabIndex = 11
@@ -243,7 +243,7 @@ Partial Class Dashboard
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Sistema_Projeto.My.Resources.Resources.img_Dash
-        Me.PictureBox2.Location = New System.Drawing.Point(12, 281)
+        Me.PictureBox2.Location = New System.Drawing.Point(30, 281)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(163, 157)
         Me.PictureBox2.TabIndex = 5
@@ -252,7 +252,7 @@ Partial Class Dashboard
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Sistema_Projeto.My.Resources.Resources.VECTOR
-        Me.PictureBox1.Location = New System.Drawing.Point(-2, 61)
+        Me.PictureBox1.Location = New System.Drawing.Point(16, 61)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(346, 214)
         Me.PictureBox1.TabIndex = 4
