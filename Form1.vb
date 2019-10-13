@@ -1,5 +1,5 @@
 ﻿Imports System.Runtime.InteropServices
-Public Class Form1
+Public Class Clientes
     <DllImport("user32.DLL", EntryPoint:="ReleaseCapture")>
     Private Shared Sub ReleaseCapture()
     End Sub
@@ -75,5 +75,9 @@ Public Class Form1
 
     Private Sub btn_produtos_Click(sender As Object, e As EventArgs) Handles btn_produtos.Click
         AbrirFormNoPanel(New Produtos)
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        AbrirFormNoPanel(New clientes01)
     End Sub
 End Class
