@@ -76,4 +76,8 @@ Public Class Clientes
     Private Sub btn_produtos_Click(sender As Object, e As EventArgs) Handles btn_produtos.Click
         AbrirFormNoPanel(New Produtos)
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        AbrirFormNoPanel(New cliente)
+    End Sub
 End Class
