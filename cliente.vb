@@ -8,7 +8,7 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.ClientesTableAdapter.Insert(txt_nome.Text, txt_telemovel.Text, txt_morada.Text, txt_email.Text)
         Me.ClientesTableAdapter.Update(DataSet1.Clientes)
-        MessageBox.Show("Cliente registrado com sucesso!")
+        MessageBox.Show("Cliente registado com sucesso!")
         Me.ClientesTableAdapter.Fill(Me.DataSet1.Clientes)
     End Sub
 End Class

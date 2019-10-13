@@ -278,7 +278,7 @@ Partial Class cliente
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(119, 60)
         Me.Button1.TabIndex = 11
-        Me.Button1.Text = "Registrar"
+        Me.Button1.Text = "Regista-te"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'DataGridView1
