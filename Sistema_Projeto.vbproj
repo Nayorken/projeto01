@@ -217,5 +217,83 @@
   <ItemGroup>
     <None Include="Resources\Screenshot_3.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network-interface-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network-interface-card %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network-interface-card1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mouse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network-interface-card2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lan1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mouse1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monitor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cpu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monitor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lan %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smartphone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer-case.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\technical-support.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
